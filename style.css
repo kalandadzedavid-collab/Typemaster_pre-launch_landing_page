@@ -309,3 +309,98 @@ footer > p > span {
     padding-bottom: 72px;
   }
 }
+
+@media (max-width: 375px) {
+  header {
+    padding: 23px 24px 0px 24px;
+    margin-bottom: 0;
+  }
+
+  .top {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 64px;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .top-left {
+    width: 327px;
+    height: 286px;
+
+    h2 {
+      font-weight: 900;
+      font-size: 48px;
+      line-height: 48px;
+    }
+
+    p {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 26px;
+    }
+  }
+
+  .top-left > div {
+    button {
+      padding: 11px 14px;
+    }
+  }
+
+  .top-right {
+    position: relative;
+    margin-top: 64px;
+    width: 372px;
+    height: 331px;
+  }
+
+  .middle {
+    padding-left: 0px;
+    padding-right: 0;
+    gap: 75px;
+  }
+
+  .mid-pics {
+    position: relative;
+    left: -30px;
+
+    img {
+      width: 220px;
+      height: 193px;
+    }
+  }
+
+  .mid-pics > div {
+    width: 129px;
+    height: 193px;
+
+    img {
+      width: 129px;
+      height: 193px;
+    }
+  }
+
+  .mid-text {
+    flex-direction: column;
+    text-align: center;
+    padding: 0 0 0 24px;
+  }
+
+  .mid-text > p {
+    width: 100%;
+    margin-top: 24px;
+  }
+
+  .bottom {
+    justify-content: center;
+  }
+
+  .attributes {
+    justify-items: center;
+    text-align: center;
+  }
+
+  main {
+    margin-bottom: 96px;
+  }
+}

@@ -310,7 +310,7 @@ footer > p > span {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 500px) {
   header {
     padding: 23px 24px 0px 24px;
     margin-bottom: 0;

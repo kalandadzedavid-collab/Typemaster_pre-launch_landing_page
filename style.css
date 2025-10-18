@@ -1,230 +1,311 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Barlow", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Barlow", sans-serif;
 }
 
 body {
-    max-width: 100vw;
-    max-height: 100vh;
-   
+  max-width: 100vw;
+  max-height: 100vh;
 }
 
 header {
-    display: flex;
-    padding: 55px 165px 0px 165px;
-    justify-content: space-between;
-    /* background-color: antiquewhite; */
-    align-items: center;
-    margin-bottom: 83px;
+  display: flex;
+  padding: 55px 165px 0px 165px;
+  justify-content: space-between;
+  /* background-color: antiquewhite; */
+  align-items: center;
+  margin-bottom: 83px;
 }
 
 header > button {
-    padding: 16px 27px;
-    border-radius: 8px;
-    border: 0;
-    background-color: #E8EFF2;
-    font-weight: 700;
-    font-size: 16px;
-    text-transform: uppercase;
-    color: #162542;
+  padding: 16px 27px;
+  border-radius: 8px;
+  border: 0;
+  background-color: #e8eff2;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #162542;
 }
 
 header > button:hover {
-    background-color: #162542;
-    color: white;
-    cursor: pointer;
+  background-color: #162542;
+  color: white;
+  cursor: pointer;
 }
 
 main {
-    margin-bottom: 128px;
+  margin-bottom: 128px;
 }
 
 .top {
-    min-height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
-    padding: 0px 165px;
-    overflow: hidden;
-    margin-bottom: 30px;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  padding: 0px 165px;
+  overflow: hidden;
+  margin-bottom: 30px;
 }
 
 .top > img {
-    position: absolute;
-    right: -120px;
-    top: 0;
+  position: absolute;
+  right: -120px;
+  top: 0;
 }
 
 .top-left {
-    min-height: 80px;
-    width: 445px;
+  min-height: 80px;
+  width: 445px;
 }
 
 .top-left > h2 {
-    font-weight: 900;
-    font-size: 56px;
-    line-height: 56px;
-    color: #162542;
-    text-transform: uppercase;
-    margin-bottom: 24px
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 56px;
+  color: #162542;
+  text-transform: uppercase;
+  margin-bottom: 24px;
 }
 
 .top-left > p {
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 26px;
-    color: #7B8BAD;
-    margin-bottom: 40px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #7b8bad;
+  margin-bottom: 40px;
 }
 
 .top-left > div {
-    /* background-color: brown; */
-    display: flex;
-    align-items: center;
-    gap: 40px;
+  /* background-color: brown; */
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 
 .top-left > div > button {
-    background-color: #F16718;
-    padding: 16px 27px;
-    border-radius: 8px;
-    border: 0;
-    font-weight: 700;
-    font-size: 16px;
-    color: white;
-    text-transform: uppercase;
+  background-color: #f16718;
+  padding: 16px 27px;
+  border-radius: 8px;
+  border: 0;
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+  text-transform: uppercase;
 }
 
 .top-left > div > button:hover {
-    background-color: #FF9B62;
-    cursor: pointer;
+  background-color: #ff9b62;
+  cursor: pointer;
 }
 
 .top-left > div > p {
- font-weight: 700;
- font-size: 16px;
- text-transform: uppercase;
- color: #7B8BAD;   
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #7b8bad;
 }
 
 .top-right {
-    width: 540px;
-    height: 480px;
-    background-image: url(./assets/desktop/image-keyboard.jpg);
-    background-position: center;
-    background-size: cover;
-    border-radius: 20px;
+  width: 540px;
+  height: 480px;
+  background-image: url(./assets/desktop/image-keyboard.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
 }
 
 .middle {
-    padding: 0 165px;
-    display: flex;
-    gap: 125px;
-    align-items: center;
-    position: relative;
-    margin-bottom: 168px;
+  padding: 0 165px;
+  display: flex;
+  gap: 125px;
+  align-items: center;
+  position: relative;
+  margin-bottom: 168px;
 }
 
 .mid-pics {
-    display: flex;
-    gap: 30px;
+  display: flex;
+  gap: 30px;
 }
 
 .mid-pics > div {
-    width: 255px;
-    height: 480px;
-    background-color: rgba(197, 79, 11, 0.719);
-    position: relative;
-    border-radius: 20px;
-    overflow: hidden;
+  width: 255px;
+  height: 480px;
+  background-color: rgba(197, 79, 11, 0.719);
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
 }
 
 .mid-pics > div > img {
-    position: relative;
-    z-index: -1;
+  position: relative;
+  z-index: -1;
 }
 
 .mid-pics > img {
-    border-radius: 20px;
+  border-radius: 20px;
 }
 
 .mid-text > h2 {
-font-weight: 900;
-font-size: 32px;
-line-height: 36px;
-color: #162542;
-text-transform: uppercase;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #162542;
+  text-transform: uppercase;
 }
 
 .mid-text > p {
-    margin-top: 27px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    color: #7B8BAD;
+  margin-top: 27px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #7b8bad;
 }
 
 #square_2 {
-    position: absolute;
-    left: -120px;
-    bottom: 0;
+  position: absolute;
+  left: -120px;
+  bottom: 0;
 }
 
 .bottom {
-    padding: 0 165px;
-    display: flex;
-    justify-content: space-between;
+  padding: 0 165px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .attributes {
-    width: 255px;
+  width: 255px;
 }
 
 .bckgr {
-    width: 65px;
-    height: 65px;
-    border-radius: 16px;
-    background-color: #F16718;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 65px;
+  height: 65px;
+  border-radius: 16px;
+  background-color: #f16718;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .desc > h2 {
-    font-weight: 900;
-    font-size: 24px;
-    line-height: 28px;
-    text-transform: uppercase;
-    color: #162542;
-    margin-top: 48px;
-    margin-bottom: 24px;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #162542;
+  margin-top: 48px;
+  margin-bottom: 24px;
 }
 
 .desc > p {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    color: #7B8BAD;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #7b8bad;
 }
 
 footer {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 39px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 39px;
 }
 
 footer > p {
-    font-weight: 700;
-    font-size: 16px;
-    color: #7B8BAD;
+  font-weight: 700;
+  font-size: 16px;
+  color: #7b8bad;
 }
 
 footer > p > span {
-    font-weight: 500;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  header {
+    padding: 40px 39px 0px 39px;
+    margin-bottom: 0;
+  }
+
+  .top {
+    padding: 62px 0 0 39px;
+    position: relative;
+  }
+
+  .top-left > h2 {
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 900;
+  }
+
+  .top-left > p {
     font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+  }
+
+  .top-left > div {
+    width: 345px;
+  }
+
+  .top-right {
+    position: relative;
+    width: 478px;
+    height: 425px;
+    right: -35px;
+  }
+
+  .top > img {
+    display: none;
+  }
+
+  #square_2 {
+    display: none;
+  }
+
+  .middle {
+    padding: 0 40px 0 39px;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .mid-pics > div {
+    width: 214px;
+    height: 320px;
+  }
+
+  .mid-pics > img {
+    width: 445px;
+    height: 320px;
+  }
+
+  .mid-text {
+    display: flex;
+    align-items: center;
+
+    h2 {
+      width: 255px;
+    }
+
+    p {
+      margin-top: 0;
+      width: 398px;
+    }
+  }
+
+  .bottom {
+    padding: 0 39px 0 39px;
+    flex-wrap: wrap;
+  }
+
+  .attributes {
+    padding-bottom: 72px;
+  }
 }
